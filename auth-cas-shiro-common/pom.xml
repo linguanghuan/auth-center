@@ -128,6 +128,21 @@
             <artifactId>jasperreports</artifactId>
             <version>${version.jasperreports}</version>
             <type>jar</type>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.olap4j</groupId>
+                    <artifactId>olap4j</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.lowagie</groupId>
+                    <artifactId>itext</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.olap4j</groupId>
+            <artifactId>olap4j</artifactId>
+            <version>${version.olap4j}</version>
         </dependency>
         <dependency>
             <groupId>com.lowagie</groupId>

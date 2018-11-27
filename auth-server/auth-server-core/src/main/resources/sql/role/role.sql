@@ -5,6 +5,6 @@ CREATE TABLE `role`(
   `role_name` VARCHAR (255) NOT NULL COMMENT '角色名称',
   `descr` VARCHAR (255) NOT NULL COMMENT '描述',
   `resource_ids` VARCHAR (255) COMMENT '资源ids',
-  `avaliable` TINYINT (1) COMMENT '是否可用',
+  `available` TINYINT (1) COMMENT '是否可用',
   PRIMARY KEY (`id`)
 )ENGINE=InnoDB  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;

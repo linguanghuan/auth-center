@@ -5,7 +5,7 @@ CREATE TABLE `app`(
   `name` VARCHAR (255) NOT NULL COMMENT '应用名称',
   `app_key` VARCHAR (255) NOT NULL COMMENT 'appkey',
   `app_secret` VARCHAR (255) COMMENT 'appSecret',
-  `avaliable` TINYINT (1) COMMENT '是否可用',
+  `available` TINYINT (1) COMMENT '是否可用',
   `descr` VARCHAR (255) COMMENT '描述',
   PRIMARY KEY (`id`)
 )ENGINE=InnoDB  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
